@@ -20,10 +20,10 @@ public class GamblingSimulator {
             }
             if (stake == 50) {
                 lose++;
-                System.out.println("Day" + day + " Lost");
+                System.out.println("Day" + day + " is a unlucky day where gambler lost maximum");
             } else {
                 wins++;
-                System.out.println("Day" + day + " Won");
+                System.out.println("Day" + day + " is a lucky day where gambler wins maximum");
 
             }
         }
